@@ -1,0 +1,11 @@
+type Query {
+	firstQuery : String
+ 	secondQuery : String
+ 	fullName(fname : String!, lname : String) : String
+ 	fullNameRes(studentResponse : StudentResponse) : String
+}
+
+input StudentResponse {
+	fName : String!
+	lName : String
+}
